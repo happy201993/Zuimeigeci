@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "User.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    User *user = (User *)[User getCurrentUser];
+    if (user == nil) {
+        [User loginWithUsernameInBackground:@"15757176639" password:@"123" block:^(BmobUser *user, NSError *error) {
+            
+        }];
+    }
+    
+    NSLog(@"user = %@",user);
+    
 }
 
 - (void)didReceiveMemoryWarning {

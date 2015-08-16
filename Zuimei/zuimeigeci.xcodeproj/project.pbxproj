@@ -16,6 +16,7 @@
 		C653E7BD1B803925008780C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C653E7BC1B803925008780C1 /* Images.xcassets */; };
 		C653E7C01B803925008780C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C653E7BE1B803925008780C1 /* LaunchScreen.xib */; };
 		C653E7CC1B803926008780C1 /* zuimeigeciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C653E7CB1B803926008780C1 /* zuimeigeciTests.m */; };
+		C6883F8B1B80D83100C65660 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C6883F8A1B80D83100C65660 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		C653E7C51B803926008780C1 /* zuimeigeciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zuimeigeciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C653E7CA1B803926008780C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C653E7CB1B803926008780C1 /* zuimeigeciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zuimeigeciTests.m; sourceTree = "<group>"; };
+		C6883F891B80D83100C65660 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		C6883F8A1B80D83100C65660 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		F999FADFF13EDA992C440B06 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF98DBA92918AB42978B9BB9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +101,7 @@
 		C653E7AB1B803925008780C1 /* zuimeigeci */ = {
 			isa = PBXGroup;
 			children = (
+				C6883F871B80D74800C65660 /* 用户 */,
 				C653E7D61B803964008780C1 /* other */,
 				C653E7D51B80394A008780C1 /* Classes */,
 				C653E7AC1B803925008780C1 /* Supporting Files */,
@@ -159,6 +163,23 @@
 				C653E7B71B803925008780C1 /* ViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		C6883F871B80D74800C65660 /* 用户 */ = {
+			isa = PBXGroup;
+			children = (
+				C6883F881B80D75500C65660 /* Model */,
+			);
+			name = "用户";
+			sourceTree = "<group>";
+		};
+		C6883F881B80D75500C65660 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6883F891B80D83100C65660 /* User.h */,
+				C6883F8A1B80D83100C65660 /* User.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		F1D56CD3B276DC831E1E6A72 /* Pods */ = {
@@ -305,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6883F8B1B80D83100C65660 /* User.m in Sources */,
 				C653E7B21B803925008780C1 /* AppDelegate.m in Sources */,
 				C653E7B51B803925008780C1 /* zuimeigeci.xcdatamodeld in Sources */,
 				C653E7B81B803925008780C1 /* ViewController.m in Sources */,
