@@ -101,6 +101,7 @@
 		C653E7AB1B803925008780C1 /* zuimeigeci */ = {
 			isa = PBXGroup;
 			children = (
+				C6B5960E1B8224C2006E88F1 /* 注册与登录模块 */,
 				C6883F871B80D74800C65660 /* 用户 */,
 				C653E7D61B803964008780C1 /* other */,
 				C653E7D51B80394A008780C1 /* Classes */,
@@ -180,6 +181,13 @@
 				C6883F8A1B80D83100C65660 /* User.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		C6B5960E1B8224C2006E88F1 /* 注册与登录模块 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "注册与登录模块";
 			sourceTree = "<group>";
 		};
 		F1D56CD3B276DC831E1E6A72 /* Pods */ = {
