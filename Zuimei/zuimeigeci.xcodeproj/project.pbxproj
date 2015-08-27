@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B363B92D1B8EA55500E9BC88 /* MySite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B363B92C1B8EA55500E9BC88 /* MySite.storyboard */; settings = {ASSET_TAGS = (); }; };
+		B363B9321B8EA58900E9BC88 /* MySiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B9311B8EA58900E9BC88 /* MySiteViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B363B9361B8EA60C00E9BC88 /* MySiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B9341B8EA60C00E9BC88 /* MySiteTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B363B93B1B8EA62700E9BC88 /* MySiteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B9391B8EA62700E9BC88 /* MySiteTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B363B93C1B8EA62700E9BC88 /* MySiteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B363B93A1B8EA62700E9BC88 /* MySiteTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		B363B94C1B8EA8F000E9BC88 /* MySiteHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B94A1B8EA8F000E9BC88 /* MySiteHeaderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B363B94D1B8EA8F000E9BC88 /* MySiteHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B363B94B1B8EA8F000E9BC88 /* MySiteHeaderViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		B363B9501B8EE8E800E9BC88 /* MySiteNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B94F1B8EE8E800E9BC88 /* MySiteNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B363B9561B8EEB7A00E9BC88 /* MySiteAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B9551B8EEB7A00E9BC88 /* MySiteAccountViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA1814DCF0F44DDF326AFD4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F999FADFF13EDA992C440B06 /* libPods.a */; };
 		C653E7AF1B803925008780C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C653E7AE1B803925008780C1 /* main.m */; };
 		C653E7B21B803925008780C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C653E7B11B803925008780C1 /* AppDelegate.m */; };
@@ -30,6 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B363B92C1B8EA55500E9BC88 /* MySite.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MySite.storyboard; path = MySite/View/MySite.storyboard; sourceTree = "<group>"; };
+		B363B9301B8EA58900E9BC88 /* MySiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteViewController.h; path = MySite/ViewController/MySiteViewController.h; sourceTree = "<group>"; };
+		B363B9311B8EA58900E9BC88 /* MySiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteViewController.m; path = MySite/ViewController/MySiteViewController.m; sourceTree = "<group>"; };
+		B363B9331B8EA60C00E9BC88 /* MySiteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteTableViewController.h; path = MySite/ViewController/MySiteTableViewController.h; sourceTree = "<group>"; };
+		B363B9341B8EA60C00E9BC88 /* MySiteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteTableViewController.m; path = MySite/ViewController/MySiteTableViewController.m; sourceTree = "<group>"; };
+		B363B9381B8EA62700E9BC88 /* MySiteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteTableViewCell.h; path = MySite/View/MySiteTableViewCell.h; sourceTree = "<group>"; };
+		B363B9391B8EA62700E9BC88 /* MySiteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteTableViewCell.m; path = MySite/View/MySiteTableViewCell.m; sourceTree = "<group>"; };
+		B363B93A1B8EA62700E9BC88 /* MySiteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MySiteTableViewCell.xib; path = MySite/View/MySiteTableViewCell.xib; sourceTree = "<group>"; };
+		B363B9491B8EA8F000E9BC88 /* MySiteHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteHeaderViewController.h; path = MySite/View/MySiteHeaderViewController.h; sourceTree = "<group>"; };
+		B363B94A1B8EA8F000E9BC88 /* MySiteHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteHeaderViewController.m; path = MySite/View/MySiteHeaderViewController.m; sourceTree = "<group>"; };
+		B363B94B1B8EA8F000E9BC88 /* MySiteHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MySiteHeaderViewController.xib; path = MySite/View/MySiteHeaderViewController.xib; sourceTree = "<group>"; };
+		B363B94E1B8EE8E800E9BC88 /* MySiteNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteNavigationViewController.h; path = MySite/ViewController/MySiteNavigationViewController.h; sourceTree = "<group>"; };
+		B363B94F1B8EE8E800E9BC88 /* MySiteNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteNavigationViewController.m; path = MySite/ViewController/MySiteNavigationViewController.m; sourceTree = "<group>"; };
+		B363B9541B8EEB7A00E9BC88 /* MySiteAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteAccountViewController.h; path = MySite/ViewController/MySiteAccountViewController.h; sourceTree = "<group>"; };
+		B363B9551B8EEB7A00E9BC88 /* MySiteAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteAccountViewController.m; path = MySite/ViewController/MySiteAccountViewController.m; sourceTree = "<group>"; };
 		C2512DACFE83ACCFA0DAE4F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C653E7A91B803925008780C1 /* zuimeigeci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zuimeigeci.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C653E7AD1B803925008780C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +94,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B363B92B1B8EA4EA00E9BC88 /* MySite我的 */ = {
+			isa = PBXGroup;
+			children = (
+				B363B92F1B8EA56B00E9BC88 /* ViewController */,
+				B363B92E1B8EA56200E9BC88 /* View */,
+			);
+			name = "MySite我的";
+			sourceTree = "<group>";
+		};
+		B363B92E1B8EA56200E9BC88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B363B9381B8EA62700E9BC88 /* MySiteTableViewCell.h */,
+				B363B9391B8EA62700E9BC88 /* MySiteTableViewCell.m */,
+				B363B93A1B8EA62700E9BC88 /* MySiteTableViewCell.xib */,
+				B363B92C1B8EA55500E9BC88 /* MySite.storyboard */,
+				B363B9491B8EA8F000E9BC88 /* MySiteHeaderViewController.h */,
+				B363B94A1B8EA8F000E9BC88 /* MySiteHeaderViewController.m */,
+				B363B94B1B8EA8F000E9BC88 /* MySiteHeaderViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B363B92F1B8EA56B00E9BC88 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B363B94E1B8EE8E800E9BC88 /* MySiteNavigationViewController.h */,
+				B363B94F1B8EE8E800E9BC88 /* MySiteNavigationViewController.m */,
+				B363B9301B8EA58900E9BC88 /* MySiteViewController.h */,
+				B363B9311B8EA58900E9BC88 /* MySiteViewController.m */,
+				B363B9331B8EA60C00E9BC88 /* MySiteTableViewController.h */,
+				B363B9341B8EA60C00E9BC88 /* MySiteTableViewController.m */,
+				B363B9541B8EEB7A00E9BC88 /* MySiteAccountViewController.h */,
+				B363B9551B8EEB7A00E9BC88 /* MySiteAccountViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		B5C5C61B0D6B1F89D2DFFE7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +163,9 @@
 		C653E7AB1B803925008780C1 /* zuimeigeci */ = {
 			isa = PBXGroup;
 			children = (
-				C6B5960E1B8224C2006E88F1 /* 注册与登录模块 */,
 				C6883F871B80D74800C65660 /* 用户 */,
+				C6B5960E1B8224C2006E88F1 /* 注册与登录模块 */,
+				B363B92B1B8EA4EA00E9BC88 /* MySite我的 */,
 				C653E7D61B803964008780C1 /* other */,
 				C653E7D51B80394A008780C1 /* Classes */,
 				C653E7AC1B803925008780C1 /* Supporting Files */,
@@ -281,9 +344,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B363B93C1B8EA62700E9BC88 /* MySiteTableViewCell.xib in Resources */,
 				C653E7BB1B803925008780C1 /* Main.storyboard in Resources */,
 				C653E7C01B803925008780C1 /* LaunchScreen.xib in Resources */,
+				B363B94D1B8EA8F000E9BC88 /* MySiteHeaderViewController.xib in Resources */,
 				C653E7BD1B803925008780C1 /* Images.xcassets in Resources */,
+				B363B92D1B8EA55500E9BC88 /* MySite.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,10 +401,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6883F8B1B80D83100C65660 /* User.m in Sources */,
+				B363B9321B8EA58900E9BC88 /* MySiteViewController.m in Sources */,
 				C653E7B21B803925008780C1 /* AppDelegate.m in Sources */,
+				B363B9561B8EEB7A00E9BC88 /* MySiteAccountViewController.m in Sources */,
+				B363B94C1B8EA8F000E9BC88 /* MySiteHeaderViewController.m in Sources */,
+				B363B9501B8EE8E800E9BC88 /* MySiteNavigationViewController.m in Sources */,
 				C653E7B51B803925008780C1 /* zuimeigeci.xcdatamodeld in Sources */,
 				C653E7B81B803925008780C1 /* ViewController.m in Sources */,
 				C653E7AF1B803925008780C1 /* main.m in Sources */,
+				B363B93B1B8EA62700E9BC88 /* MySiteTableViewCell.m in Sources */,
+				B363B9361B8EA60C00E9BC88 /* MySiteTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
