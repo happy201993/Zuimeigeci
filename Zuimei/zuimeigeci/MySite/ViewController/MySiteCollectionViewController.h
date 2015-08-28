@@ -1,5 +1,5 @@
 //
-//  MySiteTableViewController.h
+//  MySiteCollectionViewController.h
 //  zuimeigeci
 //
 //  Created by Mee Leo on 27/8/2015.
@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CSStickyHeaderFlowLayout.h>
+#import "MySiteCommen.h"
 #import "MySiteHeaderViewController.h"
 #import "MySiteTableViewCell.h"
-@interface MySiteTableViewController : UITableViewController
+
+@interface MySiteCollectionViewController : UICollectionViewController
 
 @end

@@ -16,7 +16,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="kuq-n9-vNn" customClass="MySiteTableViewCell">
-                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kuq-n9-vNn" id="3Qp-ea-s7H">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -38,7 +38,42 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p69-7D-i8R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="207" y="126"/>
+            <point key="canvasLocation" x="470" y="97"/>
+        </scene>
+        <!--我Coll-->
+        <scene sceneID="ods-RW-EiP">
+            <objects>
+                <collectionViewController id="a7e-jk-Kpt" customClass="MySiteCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="60E-vS-Diw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <collectionViewLayout key="collectionViewLayout" id="DwX-Gk-D9N" customClass="CSStickyHeaderFlowLayout"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="D4R-f6-N5Z" customClass="MySiteCollectionViewCell">
+                                <rect key="frame" x="-1" y="64" width="322" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="322" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <animations/>
+                                <color key="backgroundColor" red="0.16520904" green="0.40370270609999998" blue="0.98232322930000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="customSize" width="322" height="50"/>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="a7e-jk-Kpt" id="3JT-WJ-h3w"/>
+                            <outlet property="delegate" destination="a7e-jk-Kpt" id="nyq-hU-iPS"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="我Coll" id="YjZ-eS-xY0"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bZj-cn-HeA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="177"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7Ua-0r-dAB">
@@ -57,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U6l-yF-Xe2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="353" y="-5"/>
+            <point key="canvasLocation" x="609" y="22"/>
         </scene>
         <!--My Site Navigation View Controller-->
         <scene sceneID="zEb-6y-ypK">
@@ -69,12 +104,12 @@
                         <animations/>
                     </navigationBar>
                     <connections>
-                        <segue destination="aKS-7D-3jk" kind="relationship" relationship="rootViewController" id="5Sm-YW-nsO"/>
+                        <segue destination="a7e-jk-Kpt" kind="relationship" relationship="rootViewController" id="yb8-vW-S3s"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q7U-Aj-rsw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-125" y="166"/>
+            <point key="canvasLocation" x="-332" y="141"/>
         </scene>
     </scenes>
 </document>

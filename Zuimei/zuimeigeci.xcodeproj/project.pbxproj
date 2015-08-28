@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		B363B92D1B8EA55500E9BC88 /* MySite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B363B92C1B8EA55500E9BC88 /* MySite.storyboard */; settings = {ASSET_TAGS = (); }; };
 		B363B9321B8EA58900E9BC88 /* MySiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B9311B8EA58900E9BC88 /* MySiteViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B363B9361B8EA60C00E9BC88 /* MySiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B9341B8EA60C00E9BC88 /* MySiteTableViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -15,7 +16,12 @@
 		B363B94C1B8EA8F000E9BC88 /* MySiteHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B94A1B8EA8F000E9BC88 /* MySiteHeaderViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B363B94D1B8EA8F000E9BC88 /* MySiteHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B363B94B1B8EA8F000E9BC88 /* MySiteHeaderViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		B363B9501B8EE8E800E9BC88 /* MySiteNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B94F1B8EE8E800E9BC88 /* MySiteNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		B363B9561B8EEB7A00E9BC88 /* MySiteAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B9551B8EEB7A00E9BC88 /* MySiteAccountViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B363B95F1B8F422300E9BC88 /* MySiteCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B95D1B8F422300E9BC88 /* MySiteCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B363B9601B8F422300E9BC88 /* MySiteCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B363B95E1B8F422300E9BC88 /* MySiteCollectionViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		B363B9681B8F483400E9BC88 /* MySiteCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B363B9661B8F483400E9BC88 /* MySiteCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B363B9691B8F483400E9BC88 /* MySiteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B363B9671B8F483400E9BC88 /* MySiteCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+=======
+>>>>>>> parent of 640d274... 123123
 		BA1814DCF0F44DDF326AFD4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F999FADFF13EDA992C440B06 /* libPods.a */; };
 		C653E7AF1B803925008780C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C653E7AE1B803925008780C1 /* main.m */; };
 		C653E7B21B803925008780C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C653E7B11B803925008780C1 /* AppDelegate.m */; };
@@ -39,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		B363B92C1B8EA55500E9BC88 /* MySite.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MySite.storyboard; path = MySite/View/MySite.storyboard; sourceTree = "<group>"; };
 		B363B9301B8EA58900E9BC88 /* MySiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteViewController.h; path = MySite/ViewController/MySiteViewController.h; sourceTree = "<group>"; };
 		B363B9311B8EA58900E9BC88 /* MySiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteViewController.m; path = MySite/ViewController/MySiteViewController.m; sourceTree = "<group>"; };
@@ -52,8 +59,15 @@
 		B363B94B1B8EA8F000E9BC88 /* MySiteHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MySiteHeaderViewController.xib; path = MySite/View/MySiteHeaderViewController.xib; sourceTree = "<group>"; };
 		B363B94E1B8EE8E800E9BC88 /* MySiteNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteNavigationViewController.h; path = MySite/ViewController/MySiteNavigationViewController.h; sourceTree = "<group>"; };
 		B363B94F1B8EE8E800E9BC88 /* MySiteNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteNavigationViewController.m; path = MySite/ViewController/MySiteNavigationViewController.m; sourceTree = "<group>"; };
-		B363B9541B8EEB7A00E9BC88 /* MySiteAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteAccountViewController.h; path = MySite/ViewController/MySiteAccountViewController.h; sourceTree = "<group>"; };
-		B363B9551B8EEB7A00E9BC88 /* MySiteAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteAccountViewController.m; path = MySite/ViewController/MySiteAccountViewController.m; sourceTree = "<group>"; };
+		B363B95C1B8F422300E9BC88 /* MySiteCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteCollectionViewController.h; path = MySite/ViewController/MySiteCollectionViewController.h; sourceTree = "<group>"; };
+		B363B95D1B8F422300E9BC88 /* MySiteCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteCollectionViewController.m; path = MySite/ViewController/MySiteCollectionViewController.m; sourceTree = "<group>"; };
+		B363B95E1B8F422300E9BC88 /* MySiteCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MySiteCollectionViewController.xib; path = MySite/ViewController/MySiteCollectionViewController.xib; sourceTree = "<group>"; };
+		B363B9611B8F42E000E9BC88 /* MySiteCommen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySiteCommen.h; sourceTree = "<group>"; };
+		B363B9651B8F483400E9BC88 /* MySiteCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySiteCollectionViewCell.h; path = MySite/View/MySiteCollectionViewCell.h; sourceTree = "<group>"; };
+		B363B9661B8F483400E9BC88 /* MySiteCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySiteCollectionViewCell.m; path = MySite/View/MySiteCollectionViewCell.m; sourceTree = "<group>"; };
+		B363B9671B8F483400E9BC88 /* MySiteCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MySiteCollectionViewCell.xib; path = MySite/View/MySiteCollectionViewCell.xib; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of 640d274... 123123
 		C2512DACFE83ACCFA0DAE4F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C653E7A91B803925008780C1 /* zuimeigeci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zuimeigeci.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C653E7AD1B803925008780C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,11 +108,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		B363B92B1B8EA4EA00E9BC88 /* MySite我的 */ = {
 			isa = PBXGroup;
 			children = (
 				B363B92F1B8EA56B00E9BC88 /* ViewController */,
 				B363B92E1B8EA56200E9BC88 /* View */,
+				B363B9611B8F42E000E9BC88 /* MySiteCommen.h */,
 			);
 			name = "MySite我的";
 			sourceTree = "<group>";
@@ -113,6 +129,9 @@
 				B363B9491B8EA8F000E9BC88 /* MySiteHeaderViewController.h */,
 				B363B94A1B8EA8F000E9BC88 /* MySiteHeaderViewController.m */,
 				B363B94B1B8EA8F000E9BC88 /* MySiteHeaderViewController.xib */,
+				B363B9651B8F483400E9BC88 /* MySiteCollectionViewCell.h */,
+				B363B9661B8F483400E9BC88 /* MySiteCollectionViewCell.m */,
+				B363B9671B8F483400E9BC88 /* MySiteCollectionViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -126,12 +145,15 @@
 				B363B9311B8EA58900E9BC88 /* MySiteViewController.m */,
 				B363B9331B8EA60C00E9BC88 /* MySiteTableViewController.h */,
 				B363B9341B8EA60C00E9BC88 /* MySiteTableViewController.m */,
-				B363B9541B8EEB7A00E9BC88 /* MySiteAccountViewController.h */,
-				B363B9551B8EEB7A00E9BC88 /* MySiteAccountViewController.m */,
+				B363B95C1B8F422300E9BC88 /* MySiteCollectionViewController.h */,
+				B363B95D1B8F422300E9BC88 /* MySiteCollectionViewController.m */,
+				B363B95E1B8F422300E9BC88 /* MySiteCollectionViewController.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of 640d274... 123123
 		B5C5C61B0D6B1F89D2DFFE7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,9 +185,8 @@
 		C653E7AB1B803925008780C1 /* zuimeigeci */ = {
 			isa = PBXGroup;
 			children = (
-				C6883F871B80D74800C65660 /* 用户 */,
 				C6B5960E1B8224C2006E88F1 /* 注册与登录模块 */,
-				B363B92B1B8EA4EA00E9BC88 /* MySite我的 */,
+				C6883F871B80D74800C65660 /* 用户 */,
 				C653E7D61B803964008780C1 /* other */,
 				C653E7D51B80394A008780C1 /* Classes */,
 				C653E7AC1B803925008780C1 /* Supporting Files */,
@@ -344,12 +365,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B363B93C1B8EA62700E9BC88 /* MySiteTableViewCell.xib in Resources */,
 				C653E7BB1B803925008780C1 /* Main.storyboard in Resources */,
 				C653E7C01B803925008780C1 /* LaunchScreen.xib in Resources */,
+<<<<<<< HEAD
 				B363B94D1B8EA8F000E9BC88 /* MySiteHeaderViewController.xib in Resources */,
+				B363B9601B8F422300E9BC88 /* MySiteCollectionViewController.xib in Resources */,
 				C653E7BD1B803925008780C1 /* Images.xcassets in Resources */,
 				B363B92D1B8EA55500E9BC88 /* MySite.storyboard in Resources */,
+				B363B9691B8F483400E9BC88 /* MySiteCollectionViewCell.xib in Resources */,
+=======
+				C653E7BD1B803925008780C1 /* Images.xcassets in Resources */,
+>>>>>>> parent of 640d274... 123123
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,16 +427,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6883F8B1B80D83100C65660 /* User.m in Sources */,
-				B363B9321B8EA58900E9BC88 /* MySiteViewController.m in Sources */,
 				C653E7B21B803925008780C1 /* AppDelegate.m in Sources */,
-				B363B9561B8EEB7A00E9BC88 /* MySiteAccountViewController.m in Sources */,
+<<<<<<< HEAD
 				B363B94C1B8EA8F000E9BC88 /* MySiteHeaderViewController.m in Sources */,
 				B363B9501B8EE8E800E9BC88 /* MySiteNavigationViewController.m in Sources */,
+=======
+>>>>>>> parent of 640d274... 123123
 				C653E7B51B803925008780C1 /* zuimeigeci.xcdatamodeld in Sources */,
+				B363B95F1B8F422300E9BC88 /* MySiteCollectionViewController.m in Sources */,
 				C653E7B81B803925008780C1 /* ViewController.m in Sources */,
 				C653E7AF1B803925008780C1 /* main.m in Sources */,
+<<<<<<< HEAD
 				B363B93B1B8EA62700E9BC88 /* MySiteTableViewCell.m in Sources */,
 				B363B9361B8EA60C00E9BC88 /* MySiteTableViewController.m in Sources */,
+				B363B9681B8F483400E9BC88 /* MySiteCollectionViewCell.m in Sources */,
+=======
+>>>>>>> parent of 640d274... 123123
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
