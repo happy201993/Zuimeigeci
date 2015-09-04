@@ -1,5 +1,6 @@
 PODS:
   - BmobSDK (1.6.1)
+  - CSStickyHeaderFlowLayout (0.2.9)
   - MBProgressHUD (0.9.1)
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
@@ -7,12 +8,14 @@ PODS:
 
 DEPENDENCIES:
   - BmobSDK
+  - CSStickyHeaderFlowLayout
   - MBProgressHUD (~> 0.8)
   - SDWebImage
 
 SPEC CHECKSUMS:
   BmobSDK: 50b430dc7585a7f0527bb8b1a7d550a644ca3071
+  CSStickyHeaderFlowLayout: ece83dad3a1528af8b5a25bda3aa12536624ac65
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0.beta.3
