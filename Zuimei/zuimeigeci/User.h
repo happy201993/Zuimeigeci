@@ -35,5 +35,5 @@
 @property (nonatomic,strong) BmobRelation *mSuiNian;
 @property (nonatomic,assign) NSInteger mSuiNianNum;
 
-
++ (instancetype)getCurrentUser;
 @end

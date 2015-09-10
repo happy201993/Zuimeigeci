@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "User.h"
+#import "FirstWelComePagesViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +18,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self firstRunCheck];
     return YES;
+}
+
+-(void)firstRunCheck{
+    
+    NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
+    NSMutableDictionary* userDict = [userDefaults objectForKey:@"userDick"];
+    if (!userDict) {
+        
+        UIStoryboard* LogStoryBoard = [UIStoryboard storyboardWithName:@"SignUpAndLogIn" bundle:nil];
+        
+        UIViewController* firstPageViewController = [LogStoryBoard instantiateViewControllerWithIdentifier:@"FirstWelcomePage"];
+        self.window.rootViewController = firstPageViewController;
+        NSMutableDictionary* userDick = [NSMutableDictionary dictionary];
+        [userDick setObject:@NO forKey:@"FirstRun"];
+        [userDefaults setObject:userDick forKey:@"userDick"];
+        [userDefaults synchronize];
+    }
+ 
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -116,8 +136,6 @@
     if (managedObjectContext != nil) {
         NSError *error = nil;
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
-            // Replace this implementation with code to handle the error appropriately.
-            // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
             abort();
         }

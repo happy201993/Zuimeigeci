@@ -10,6 +10,15 @@
 
 @implementation User
 
++ (User *)getCurrentUser
+{
+    BmobUser *buser = [BmobUser getCurrentUser];
+    User *user = nil;
+    if(buser != nil){
+        user =  [[User alloc] initFromBmobOjbect:buser];
+    }
+   
+    return user;
+}
 
-//
 @end
